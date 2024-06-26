@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 75, 160);
+}
+h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 6px;
+    margin-top: 10px
+}
+h1{
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 20px;
+}
+p{
+    text-indent: 1em;
+    color: white;
+    font-size: 24px;
+    padding: 3px;
+    font-family:'Courier New', Courier, monospace;
+}
+img{
+    display: block;
+    border-radius: 5px;
+}
+
+.navegacao{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(79, 181, 212);
+    top:0px;
+}
+nav{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(79, 181, 212);
+}
+nav ul{
+    background-color: rgb(79, 181, 212);
+}
+nav li{	
+    font-size: 30px;
+	display:inline-block;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: rgb(79, 181, 212);
+}
+nav a{
+    text-align:center;
+    background-color: rgb(79, 181, 212);
+    color:rgb(0, 75, 160);
+}
+
+.nome{
+    margin-top: 150px;
+    display: block;
+    padding: 30px;
+}
+
+.apresentacao{
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.email, .endereco{
+    font-family: 'Courier New', Courier, monospace;
+}
+.habilidades li{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.footer, footer li, footer h1, footer p{
+    background-color: rgb(255, 255, 255);
+    color:rgb(79, 181, 212);
+}
+.footer a{
+    color:rgb(79, 181, 212);
+    font-size: 28px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.copyright{
+    margin-top: 30px;
+}
+@media screen and (max-width: 768px){
+    .navegacao{
+        height: 100%;
+        width: 100px;
+    }
+    nav{
+        text-align: center;
+        padding: 0px;
+    }
+    nav li{	
+        font-size: 30px;
+        padding: 20px, 0px;
+        margin: 0px;
+    }
+    nav a {
+        display: block;
+    }
+    .nome{
+        margin-top:0;
+    }
+    .header, .education, .experiencias, .habilidades, .footer, .capacitacao, .apresentacao, .email, .endereco{
+        margin-left: 220px
+    }
+}
